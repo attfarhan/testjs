@@ -1,16 +1,11 @@
 {
   "name": "mypkg",
   "version": "4.0.2",
-  "scripts": {
-      "preinstall": "echo preinstall should not run && exit 1",
-      "postinstall": "echo postinstall should not run && exit 1",
-      "install": "echo install should not run && exit 1"
-  },
   "dependencies": {
-      "typescript": "2.1.1",
-      "diff": "3.0.1"
+    "typescript": "2.1.1",
+    "diff": "3.0.1"
   },
   "devDependencies": {
-      "@types/diff": "0.0.31"
+    "@types/diff": "0.0.31"
   }
 }
