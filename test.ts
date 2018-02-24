@@ -1,5 +1,5 @@
 import * as diff from "diff";
 import { diffChars, IDiffResult } from "diff";
-import typescript;
+import "typescript";
 
 diffChars("foo", "bar");
